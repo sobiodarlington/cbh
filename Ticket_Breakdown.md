@@ -22,7 +22,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 # Story
 Currently, the id of each Agent on the reports we generate is their internal database id. We'd like to add the ability for Facilities to save their own custom ids for each Agent they work with and use that id when generating reports for them.
 
-## tasks 1
+## Tasks 1
 ### Title 
 Create `Facility_Agents` table to add facility custom agent ID
 
@@ -46,7 +46,7 @@ Create `Facility_Agents` table to add facility custom agent ID
 
 
 
-## tasks 2
+## Tasks 2
 ### Title 
 Implement a feature where facilities and create/update custom IDs for agents 
 
@@ -77,7 +77,7 @@ Implement a feature where facilities and create/update custom IDs for agents
 2 days
 
 
-## tasks 3
+## Tasks 3
 Update `getShiftsByFacility` function to return `custom_agent_id` as part of the shifts data
 
 ### Description
@@ -91,7 +91,7 @@ If a custom ID exist for an agent, it must be included in the shift data for tha
 
 
 
-## tasks 4
+## Tasks 4
 Update `generateReport` function to include `custom_agent_id` as part of the report data 
 
 ### Description
