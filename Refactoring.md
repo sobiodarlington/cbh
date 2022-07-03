@@ -12,3 +12,4 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 A few things I noticed
 - Function does not return early for invalid inputs
 - There were too many unnecessary and nested if statements
+- There was an edge case where we generate a new hash id `candidate.length > MAX_PARTITION_KEY_LENGTH` I left a comment on the possibility of the newly generated has still being greater than `MAX_PARTITION_KEY_LENGTH`. We could use recurrsion to call same function till we get a valid hash. The efficiency of that solution will depend on the probability of the hash util returning a hash greater that 256. 
