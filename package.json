@@ -1,0 +1,15 @@
+{
+  "name": "cbh_test",
+  "version": "1.0.0",
+  "description": "This project contains two challenges - a \"Ticket Breakdown\" challenge and a \"Refactoring\" challenge. The two challenges are unrelated, but you should complete both in the same folder and share the link in Coderbyte. Any written answers should be included in markdown files within this folder.",
+  "main": " ",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
